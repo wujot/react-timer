@@ -1,0 +1,24 @@
+body {
+  margin: 0 auto;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.controls button {
+  margin: 20px;
+  padding: 20px;
+  min-width: 150px;
+  box-shadow: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: all 0.4s ease-in-out;
+}
+
+.controls button:hover {
+  background: black;
+  color: white;
+}
